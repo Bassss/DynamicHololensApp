@@ -1,0 +1,93 @@
+{
+  "name": "unity-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha --recursive './test/unit/**/*.js'",
+    "lint": "eslint './**/*.js'",
+    "start": "gulp"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "gulp": "^3.9.1",
+    "gulp-env": "^0.4.0",
+    "gulp-nodemon": "^2.2.1",
+    "mocha": "^6.0.2",
+    "morgan": "^1.8.0"
+  },
+  "dependencies": {
+    "async": "^2.6.0",
+    "aws-sdk": "^2.234.1",
+    "base64-img": "^1.0.4",
+    "base64-stream": "^0.1.3",
+    "basic-auth": "^1.1.0",
+    "bcrypt-nodejs": "0.0.3",
+    "bluebird": "^3.5.3",
+    "body-parser": "^1.16.0",
+    "callsites": "^2.0.0",
+    "easy-pdf-merge": "^0.1.3",
+    "express": "^4.16.4",
+    "handlebars": "^4.1.0",
+    "hummus": "^1.0.95",
+    "jsonfile": "^4.0.0",
+    "jsonwebtoken": "^7.2.1",
+    "memory-streams": "^0.1.3",
+    "mkdirp": "^0.5.1",
+    "moment": "^2.24.0",
+    "multer": "^1.4.1",
+    "node-pdftk": "^1.2.3",
+    "nodemailer": "^5.1.1",
+    "ordered-read-streams": "^1.0.1",
+    "pdfkit": "^0.8.0",
+    "pdfmerger": "^0.2.0",
+    "pdftk": "0.0.0-rc.0",
+    "pg-monitor": "^0.7.1",
+    "pg-promise": "^5.5.6",
+    "pm2": "^2.10.3",
+    "postcode-nl": "^1.3.2",
+    "qr-image": "^3.2.0",
+    "randomstring": "^1.1.5",
+    "request": "^2.85.0",
+    "request-promise": "^4.2.4",
+    "slack-node": "^0.1.8",
+    "socket.io": "^2.1.0",
+    "swagger-ui-express": "^2.0.15",
+    "validate.js": "^0.11.1",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": false,
+      "node": true,
+      "mocha": true
+    },
+    "extends": "airbnb",
+    "rules": {
+      "indent": [
+        "error",
+        4
+      ],
+      "func-names": [
+        "error",
+        "always",
+        {
+          "generators": "never"
+        }
+      ],
+      "quotes": [
+        "error",
+        "double",
+        {
+          "avoidEscape": true
+        }
+      ]
+    }
+  }
+}

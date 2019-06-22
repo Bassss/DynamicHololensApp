@@ -1,0 +1,10 @@
+{
+	"IS_DEVELOPMENT": true,
+	"DEV_LOGGING": true,
+	"API_VERSION": "v1",
+	"IP":"172.20.10.2",
+	"PORT": 8000,
+	"LABEL": "BasDev",
+	"ROOT_USER_ID": 1,
+	"OVERRIDE_SECURITY_CHECK": false
+}

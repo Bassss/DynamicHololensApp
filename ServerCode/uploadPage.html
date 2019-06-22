@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Upload assets</title>
+</head>
+
+<body>
+
+    <form id="uploader" enctype="multipart/form-data" action="" method="POST">
+        <p>User:</p><input id="user" name= "user" type="input" /><br>
+
+        <p>Name:</p> <input id="name" name="name"type="input" /><br>
+        <p>Type:</p><select id="type"name="type" type="select">
+            <option value="image">image</option>
+            <option value="video">video</option>
+            <option value="audio">audio</option>
+            <option value="model">model</option>
+        </select><br>
+        <p>File:</p><input id="fileupload" name="myFiles" type="file" multiple/><br>
+        <input type="submit" value="upload" id="submit"  /><br>
+    </form>
+<div id= "response">
+
+</div>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+{
+    "knownUsers":{
+        "TestBoi":  1,
+        "UnityDeveloper": 2,
+        "Onwijs": 3
+    },
+    "knownLenses":{
+        "example": "TestBoi",
+        "53147e2918b83dcddfd57641cf7cd71578e1837c": "UnityDeveloper",
+        "0100f9800200a9b503008393040015af0500628d070008da08005c3f09003f9e0100a7680200a5040300c4c20400e4680500ecf907003b480800d63c0900c982": "Onwijs"
+    }
+}
